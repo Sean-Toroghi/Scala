@@ -1,4 +1,5 @@
-
+// Check if a number is prime.
+// Sean Toroghi
 object Code2_prime extends App {
   
   def divide_check(n:Int) : List[Int] = 
@@ -9,9 +10,9 @@ object Code2_prime extends App {
       divide_check(n).length == 2
     
     if (check_prime(23)) 
-      println ("it is a prime number") 
+      println ("it is a prime number.") 
     else
-      println("it i NOT a prime number")
+      println("it is NOT a prime number!")
   
   
 }
